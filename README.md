@@ -4,6 +4,20 @@
 
 A Python-based Claude Code skill for interacting with Slack workspaces using browser session tokens. No MCP server required - uses pure Python with urllib.
 
+## Quick Install
+
+```bash
+npx skills add hienlh/claude-skill-slack-api
+```
+
+Or install globally without prompts:
+
+```bash
+npx skills add hienlh/claude-skill-slack-api -y -g
+```
+
+After install, configure your tokens (see [Authentication](#2-configure-authentication-tokens)).
+
 ## Features
 
 - **Read Messages** - Fetch channel history, thread replies, or specific messages from URLs
